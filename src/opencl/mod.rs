@@ -33,7 +33,7 @@ impl Brand {
 }
 
 pub struct Buffer<T> {
-    buffer: ocl::Buffer<u8>,
+    pub buffer: ocl::Buffer<u8>,
     _phantom: std::marker::PhantomData<T>,
 }
 
